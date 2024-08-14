@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border-radius: 12px;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .card-avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-icon {
+    margin-top: 10px;
+  }
